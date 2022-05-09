@@ -25,7 +25,6 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
-		self.ips = requests.get("https://anggakurniawan.my.id/myip/").text
 		os.system("clear")
 		os.system('xdg-open https://m.facebook.com/md.rafsan.02')
 		print(" ")
@@ -47,9 +46,9 @@ class Main:
 			Main()
 
 	def fbtua(self):
-		x = 11111111
-		xx = 99999999
-		idx = "1000000" 
+		x = 111111111
+		xx = 999999999
+		idx = "1" 
 		limit = int(input("    \033[0;91m[+]\033[0;97m TOTAL IDS TO CRACK : "))
 		try:
 			for n in range(limit):
